@@ -1,0 +1,83 @@
+.carasy{
+  height: 400px;
+  display: flex;
+  gap: 20px;
+ margin:0 auto;
+ margin-top: 40px;
+  
+ max-width: 1200px; 
+  position: relative;
+}
+
+.carasy_item{
+  height: 100%;
+  
+  width: 100%;
+ display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 1s ease-in;
+  object-fit: cover;
+  border-radius: 50px;
+  
+    
+}
+
+.item1{
+  left:-106%;
+  
+}
+.left{
+  
+  position: absolute;
+  left: -106%;
+  top: 0;
+  width: 1200px;
+  height: 400px;
+  background-color: rgba(255,255,255,.7);
+  border-radius: 50px;
+  z-index: 20;
+  cursor: pointer;
+}
+.richt{
+  position: absolute;
+  left: 106%;
+  top: 0;
+  width: 1200px;
+  height: 400px;
+  background-color: rgba(255,255,255,.7);
+  border-radius: 50px;
+  z-index: 20;
+  cursor: pointer;
+}
+.item2{
+ 
+  left:0;
+ 
+}
+.item3{
+ 
+  left:106%;
+  
+}
+.item4{
+ 
+  left:230%;
+  cursor: pointer;
+}
+.item5{
+ 
+  left: -330%;
+  cursor: pointer;
+}
+.wrap{
+  overflow: hidden;
+}
+
+
+
+   
+   
+  
+

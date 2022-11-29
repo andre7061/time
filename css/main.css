@@ -1,0 +1,19 @@
+@import url(./header.css);
+@import url(./caras.css);
+
+
+body, html {
+	background-color: #e1ecec;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-style: italic;
+}
+.wrapper{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+
